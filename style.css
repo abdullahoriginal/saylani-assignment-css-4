@@ -1,0 +1,420 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+.abc {
+    position: sticky;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    height: 35px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+.navbar-right a {
+    margin-left: 10px; 
+}
+#butto {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#butto:hover {
+    transition: 1s;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#a {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#a:hover {
+    transition: 1s;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#b {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#b:hover {
+    transition: 1s;
+    background-color: black;
+    color: whitesmoke;
+}
+#c {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#c:hover {
+    transition: 1s;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.big {
+    height: 700px;
+    width: 1500px;
+    background-image: url('br-architects/assets/images/architect.jpg');
+    margin-top: -21px;
+}
+.headin {
+    padding-top: 350px;
+    padding-left: 600px;
+}
+
+.br {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 13px;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        0px 0px 0 #000;
+}
+.arch {
+    color: white;
+}
+
+.proj {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 18px;
+}
+
+.houses {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-left: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.house1 {
+    background-image: url('br-architects/assets/images/house5.jpg');
+    background-size: cover;
+    width: 320px;
+    height: 213px;
+    margin-bottom: 10px;
+}
+.summer {
+    color: white;
+    background-color: rgba(0, 0, 0, 1.0);
+    padding: 13px;
+    text-shadow: 
+        0px 0px 0 #000,  
+        0px 0px 0 #000,
+        0px 0px 0 #000,
+        0px 0px 0 #000;
+    width: 130px;
+}
+
+.house2 {
+    background-image: url('br-architects/assets/images/house2.jpg');
+    background-size: cover;
+    width: 320px;
+    height: 213px;
+    margin-bottom: 10px;
+}
+.brick {
+    color: white;
+    background-color: rgba(0, 0, 0, 1.0);
+    padding: 13px;
+    text-shadow: 
+        0px 0px 0 #000,  
+        0px 0px 0 #000,
+        0px 0px 0 #000,
+        0px 0px 0 #000;
+    width: 100px;
+}
+
+.house3 {
+    background-image: url('br-architects/assets/images/house3.jpg');
+    background-size: cover;
+    width: 320px;
+    height: 213px;
+    margin-bottom: 10px;
+}
+.renovated {
+    color: white;
+    background-color: rgba(0, 0, 0, 1.0);
+    padding: 13px;
+    text-shadow: 
+        0px 0px 0 #000,  
+        0px 0px 0 #000,
+        0px 0px 0 #000,
+        0px 0px 0 #000;
+    width: 100px;
+}
+.house4 {
+    background-image: url('br-architects/assets/images/house4.jpg');
+    background-size: cover;
+    width: 320px;
+    height: 213px;
+    margin-bottom: 10px;
+}
+.barn {
+    color: white;
+    background-color: rgba(0, 0, 0, 1.0);
+    padding: 13px;
+    text-shadow: 
+        0px 0px 0 #000,  
+        0px 0px 0 #000,
+        0px 0px 0 #000,
+        0px 0px 0 #000;
+    width: 100px;
+}
+.house5 {
+    background-image: url('br-architects/assets/images/house2.jpg');
+    background-size: cover;
+    width: 320px;
+    height: 213px;
+    margin-bottom: 20px;
+}
+.summer2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 1.0);
+    padding: 13px;
+    text-shadow: 
+        0px 0px 0 #000,  
+        0px 0px 0 #000,
+        0px 0px 0 #000,
+        0px 0px 0 #000;
+    width: 130px;
+}
+.house6
+{
+    background-image: url('br-architects/assets/images/house5.jpg');
+    background-size: cover;
+    width: 320px;
+    height: 213px;
+    margin-bottom: 20px;
+}
+.brick2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 1.0);
+    padding: 13px;
+    text-shadow: 
+        0px 0px 0 #000,  
+        0px 0px 0 #000,
+        0px 0px 0 #000,
+        0px 0px 0 #000;
+    width: 100px;
+}
+.house7 {
+    background-image: url('br-architects/assets/images/house4.jpg');
+    background-size: cover;
+    width: 320px;
+    height: 213px;
+    margin-bottom: 20px;
+}
+.renovated2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 1.0);
+    padding: 13px;
+    text-shadow: 
+        0px 0px 0 #000,  
+        0px 0px 0 #000,
+        0px 0px 0 #000,
+        0px 0px 0 #000;
+    width: 100px;
+}
+.house8 {
+    background-image: url('br-architects/assets/images/house3.jpg');
+    background-size: cover;
+    width: 320px;
+    height: 213px;
+    margin-bottom: 20px;
+}
+.barn2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 1.0);
+    padding: 13px;
+    text-shadow: 
+        0px 0px 0 #000,  
+        0px 0px 0 #000,
+        0px 0px 0 #000,
+        0px 0px 0 #000;
+    width: 100px;
+}
+.about {
+    margin: 18px;
+}
+.lorem {
+    /* font-size: small; */
+    margin-left: 18px;
+    margin-bottom: 30px;
+}
+.sect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 14px;
+    margin-left: 18px;
+}
+
+.team1 {
+    height: 426px;
+    width: 320px;
+}
+.img1 {
+    height: 213px;
+    width: 100%;
+}
+.team2 {
+    height: 426px;
+    width: 320px;
+}
+.img2 {
+    height: 213px;
+    width: 100%;
+}
+.team3 {
+    height: 426px;
+    width: 320px;
+}
+.img3 {
+    height: 213px;
+    width: 100%;
+}
+.team4 {
+    height: 426px;
+    width: 320px;
+}
+.img4 {
+    height: 213px;
+    width: 100%;
+}
+.ceo {
+    color: gray;
+}
+#butt {   
+    /* margin-left: 80px; */
+    background-color: #f1f1f1;
+    border: none;
+    color: black;
+    padding: 10px 130px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#butt:hover {
+    transition: 1s;
+    background-color: white;
+    color: grey;
+}
+.cont {
+    margin-left: 18px;
+}
+.pare {
+    font-size: larger;
+    margin-left: 18px;
+}
+.buttons {
+    margin: 18px;
+}
+.button {
+    width: 99%;
+    height: 35px;
+    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+}
+input {
+    padding-left: 10px;
+}
+input::placeholder {
+    justify-content: flex-start;    
+    font-size: 17px;
+    color: #999;
+}
+.input {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    color: WHITE;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.input:hover {
+    transition: 1s;
+    background-color: #D3D3D3;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    color: white;
+    font-size: larger;
+    /* text-align: center; */
+}
+hr {
+    border: none;
+    border-top: 1px solid #D3D3D3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
